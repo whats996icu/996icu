@@ -11,7 +11,7 @@ export default defineConfig({
       {
         text: '自用教程',
         items: [
-          { text: '建站工具', items: [{ text: 'vitepress', link: '...' }] },
+          { text: '建站工具', items: [{ text: 'vitepress', link: '/tutorial/vitepress' }] },
           {
             text: '编程软件',
             items: [{ text: 'ja-netfilter', link: '...' }],
@@ -31,15 +31,15 @@ export default defineConfig({
       },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/api-examples' },
+    //     ],
+    //   },
+    // ],
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
 
