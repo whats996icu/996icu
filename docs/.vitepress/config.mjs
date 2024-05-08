@@ -8,8 +8,27 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      {
+        text: '自用教程',
+        items: [
+          { text: '建站工具', items: [{ text: 'vitepress', link: '...' }] },
+          {
+            text: '编程软件',
+            items: [{ text: 'ja-netfilter', link: '...' }],
+          },
+          { text: '更多工具', items: [{ text: 'vpn', link: '...' }] },
+        ],
+      },
+      {
+        text: '学习路线',
+        items: [
+          { text: '前端', items: [{ text: 'front-end', link: '...' }] },
+          {
+            text: '后端',
+            items: [{ text: 'back-end', link: '...' }],
+          },
+        ],
+      },
     ],
 
     sidebar: [
